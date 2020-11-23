@@ -1,0 +1,48 @@
+.navigation {
+    font-family: var(--font1);
+    /* height: 74px; */
+    /*background-color: rgb(238, 255, 0);*/
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left {
+    font-size: 40px;
+    display: flex;
+    font-weight: bold;
+}
+
+.nav-left a img {
+    margin-left: 20px;
+    width: 100px;
+}
+
+.nav-left ul {
+    font-size: 22px;
+    margin: 0 70px;
+    align-items: center;
+    display: flex;
+}
+
+.nav-left ul li {
+    margin: 0 10px;
+    list-style: none;
+    font-family: var(--font2);
+}
+
+.nav-left ul li a:hover {
+    color: var(--main-bg-color);
+}
+
+.nav-left ul li a {
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+}
+
+.nav-right {
+    font-size: 20px;
+    display: fixed;
+}
